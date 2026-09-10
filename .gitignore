@@ -1,0 +1,9 @@
+node_modules/
+dist/
+test-results/
+reports/html-report/
+reports/junit-results.xml
+screenshots/*.png
+playwright-report/
+.env
+*.log

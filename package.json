@@ -1,0 +1,27 @@
+{
+  "name": "saucedemo-playwright-automation",
+  "version": "1.0.0",
+  "description": "Playwright (TypeScript) automation framework for SauceDemo (https://www.saucedemo.com/) - QA Automation Assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:login": "playwright test tests/login.spec.ts",
+    "test:products": "playwright test tests/products.spec.ts",
+    "test:cart": "playwright test tests/cart.spec.ts",
+    "test:checkout": "playwright test tests/checkout.spec.ts",
+    "test:logout": "playwright test tests/logout.spec.ts",
+    "report": "playwright show-report reports/html-report",
+    "install:browsers": "playwright install --with-deps chromium"
+  },
+  "keywords": ["playwright", "automation", "e2e", "saucedemo", "qa"],
+  "author": "QA Trainee",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.7.0",
+    "typescript": "^5.6.2"
+  }
+}

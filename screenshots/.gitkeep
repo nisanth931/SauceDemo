@@ -1,0 +1,3 @@
+# This folder holds manually captured screenshots (via TestHelper.captureScreenshot)
+# and serves as the destination referenced in the assessment deliverables.
+# Failure screenshots/videos from Playwright itself go to test-results/ (see playwright.config.ts).
